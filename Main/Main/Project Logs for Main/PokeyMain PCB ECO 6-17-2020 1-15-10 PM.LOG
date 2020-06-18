@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=J4_KEY1 NewDesignator=J5_KEY1
+Change Component Designator: OldDesignator=J4_KEY2 NewDesignator=J5_KEY2
+Change Component Designator: OldDesignator=J4_KEY3 NewDesignator=J5_KEY3
+Change Net Name : Old Net Name=NetJ4_KEY1_L1- New Net Name=NetJ5_KEY1_L1-
+Change Net Name : Old Net Name=NetJ4_KEY1_L2- New Net Name=NetJ5_KEY1_L2-
+Change Net Name : Old Net Name=NetJ4_KEY2_L1- New Net Name=NetJ5_KEY2_L1-
+Change Net Name : Old Net Name=NetJ4_KEY2_L2- New Net Name=NetJ5_KEY2_L2-
+Change Net Name : Old Net Name=NetJ4_KEY3_L1- New Net Name=NetJ5_KEY3_L1-
+Change Net Name : Old Net Name=NetJ4_KEY3_L2- New Net Name=NetJ5_KEY3_L2-

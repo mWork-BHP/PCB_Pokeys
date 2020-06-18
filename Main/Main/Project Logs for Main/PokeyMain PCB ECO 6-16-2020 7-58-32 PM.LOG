@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetLED4_1 Pin=R22-2
+Removed Pin From Net: NetName=OutP4 Pin=R23-1
+Removed Pin From Net: NetName=A4 Pin=R23-2
+Removed Pin From Net: NetName=NetLED5_1 Pin=R26-2
+Removed Pin From Net: NetName=OutP4 Pin=R27-1
+Removed Pin From Net: NetName=B4 Pin=R27-2
+Removed Pin From Net: NetName=NetLED6_1 Pin=R30-2
+Removed Pin From Net: NetName=OutP4 Pin=R31-1
+Removed Pin From Net: NetName=Z4 Pin=R31-2
+Removed Pin From Net: NetName=A4 Pin=U10-2
+Removed Pin From Net: NetName=B4 Pin=U11-2
+Removed Pin From Net: NetName=Z4 Pin=U12-2
+Removed Member From Class: ClassName=Photo Member=R23
+Removed Member From Class: ClassName=Photo Member=R27
+Removed Member From Class: ClassName=Photo Member=R31
+Added Pin To Net: NetName=5V Pin=F3-1
+Added Pin To Net: NetName=A4 Pin=LED4-2
+Added Pin To Net: NetName=B4 Pin=LED5-2
+Added Pin To Net: NetName=Z4 Pin=LED6-2
+Added Pin To Net: NetName=NetLED4_1 Pin=U10-2
+Added Pin To Net: NetName=NetLED5_1 Pin=U11-2
+Added Pin To Net: NetName=NetLED6_1 Pin=U12-2
+Added Pin To Net: NetName=NetR22_2 Pin=R22-2
+Added Pin To Net: NetName=NetR22_2 Pin=U10-1
+Added Net: Name=NetR22_2
+Added Pin To Net: NetName=NetR26_2 Pin=R26-2
+Added Pin To Net: NetName=NetR26_2 Pin=U11-1
+Added Net: Name=NetR26_2
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=U12-1
+Added Net: Name=NetR30_2

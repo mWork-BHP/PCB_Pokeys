@@ -1,0 +1,56 @@
+Change Component Designator: OldDesignator=S? NewDesignator=S9
+Added Component: Designator=C17_IN1(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN2(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN3(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN4(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN5(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN6(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN7(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN8(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN9(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN10(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17_IN11(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=C17_IN1-1
+Added Pin To Net: NetName=GND Pin=C17_IN1-2
+Added Pin To Net: NetName=VCC Pin=C17_IN2-1
+Added Pin To Net: NetName=GND Pin=C17_IN2-2
+Added Pin To Net: NetName=VCC Pin=C17_IN3-1
+Added Pin To Net: NetName=GND Pin=C17_IN3-2
+Added Pin To Net: NetName=VCC Pin=C17_IN4-1
+Added Pin To Net: NetName=GND Pin=C17_IN4-2
+Added Pin To Net: NetName=VCC Pin=C17_IN5-1
+Added Pin To Net: NetName=GND Pin=C17_IN5-2
+Added Pin To Net: NetName=VCC Pin=C17_IN6-1
+Added Pin To Net: NetName=GND Pin=C17_IN6-2
+Added Pin To Net: NetName=VCC Pin=C17_IN7-1
+Added Pin To Net: NetName=GND Pin=C17_IN7-2
+Added Pin To Net: NetName=VCC Pin=C17_IN8-1
+Added Pin To Net: NetName=GND Pin=C17_IN8-2
+Added Pin To Net: NetName=VCC Pin=C17_IN9-1
+Added Pin To Net: NetName=GND Pin=C17_IN9-2
+Added Pin To Net: NetName=VCC Pin=C17_IN10-1
+Added Pin To Net: NetName=GND Pin=C17_IN10-2
+Added Pin To Net: NetName=VCC Pin=C17_IN11-1
+Added Pin To Net: NetName=GND Pin=C17_IN11-2
+Added Member To Class: ClassName=IN1 Member=Component C17_IN1 (C17) CN
+Added Member To Class: ClassName=IN2 Member=Component C17_IN2 (C17) CN
+Added Member To Class: ClassName=IN3 Member=Component C17_IN3 (C17) CN
+Added Member To Class: ClassName=IN4 Member=Component C17_IN4 (C17) CN
+Added Member To Class: ClassName=IN5 Member=Component C17_IN5 (C17) CN
+Added Member To Class: ClassName=IN6 Member=Component C17_IN6 (C17) CN
+Added Member To Class: ClassName=IN7 Member=Component C17_IN7 (C17) CN
+Added Member To Class: ClassName=IN8 Member=Component C17_IN8 (C17) CN
+Added Member To Class: ClassName=IN9 Member=Component C17_IN9 (C17) CN
+Added Member To Class: ClassName=IN10 Member=Component C17_IN10 (C17) CN
+Added Member To Class: ClassName=IN11 Member=Component C17_IN11 (C17) CN

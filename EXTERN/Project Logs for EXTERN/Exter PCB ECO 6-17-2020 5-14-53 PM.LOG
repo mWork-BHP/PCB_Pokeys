@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=ProExtBus Member=DIRR3
+Added Component: Designator=S?(LED-0805-Blue)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 - 5 ly 2 Colour"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLabel91 Pin=S?-2
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Pin To Net: NetName=NetR13_2 Pin=S?-1
+Added Net: Name=NetR13_2
+Added Member To Class: ClassName=ProExtBus Member=Component S? LED

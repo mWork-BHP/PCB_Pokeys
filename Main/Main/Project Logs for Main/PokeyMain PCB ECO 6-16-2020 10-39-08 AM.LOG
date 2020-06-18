@@ -1,0 +1,266 @@
+Removed Pin From Net: NetName=+12 Pin=C?-1
+Removed Pin From Net: NetName=NetC?_1 Pin=C?-1
+Removed Pin From Net: NetName=NetC?_1 Pin=C?-1
+Removed Pin From Net: NetName=VCC Pin=C?-1
+Removed Pin From Net: NetName=GND Pin=C?-2
+Removed Pin From Net: NetName=NetC?_1 Pin=C?-2
+Removed Pin From Net: NetName=NetC?_1 Pin=U?-3
+Change Component Footprint: Designator=C? Old Footprint=CAP-ALU-SMD-6.3x7.7x2.2 New Footprint=CAP-ALU-SMD-F
+Change Component Footprint: Designator=C? Old Footprint=CAP-ALU-SMD-6.3x7.7x2.2 New Footprint=CAP-ALU-SMD-F
+Change Component Footprint: Designator=C? Old Footprint=CAP-ALU-SMD-6.3x7.7x2.2 New Footprint=CAP-ALU-SMD-F
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=CN-ALU-SMD
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=CN-ALU-SMD
+Change Component Comment : Designator=C? Old Comment=10uF New Comment=CN-ALU-SMD
+Change Component Designator: OldDesignator=C3 NewDesignator=C?
+Added Component: Designator=F?(Capacitor_805)
+Added Component: Designator=IC?(SO16)
+Add component (AddParameter): Name = "Value"; Value = "74HC595"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(SO16)
+Add component (AddParameter): Name = "Value"; Value = "74HC595"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(SO16)
+Add component (AddParameter): Name = "Value"; Value = "74HC595"; VariantName = "[No Variations]"
+Added Component: Designator=IC?(SO16)
+Add component (AddParameter): Name = "Value"; Value = "74HC595"; VariantName = "[No Variations]"
+Added Component: Designator=J2(DB37)
+Added Component: Designator=J?_KEY1(RJ45_8P8C)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "615008142121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/615008142121/W%C3%BCrth%20Elektronik/view-part/1118273/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?_KEY2(RJ45_8P8C)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "615008142121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/615008142121/W%C3%BCrth%20Elektronik/view-part/1118273/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?_KEY3(RJ45_8P8C)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "615008142121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/615008142121/W%C3%BCrth%20Elektronik/view-part/1118273/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?_KEY4(RJ45_8P8C)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "615008142121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/615008142121/W%C3%BCrth%20Elektronik/view-part/1118273/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(RJ45_8P8C)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "615008142121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/615008142121/W%C3%BCrth%20Elektronik/view-part/1118273/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(RJ45_8P8C)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "615008142121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/615008142121/W%C3%BCrth%20Elektronik/view-part/1118273/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO18)
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ULN2803ADWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Drivers/Receivers"; Value = "8/0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "18-SOIC (7.5mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Protocol"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Darlington Array"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO18)
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ULN2803ADWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Drivers/Receivers"; Value = "8/0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "18-SOIC (7.5mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Protocol"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Darlington Array"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO18)
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ULN2803ADWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Drivers/Receivers"; Value = "8/0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "18-SOIC (7.5mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Protocol"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Darlington Array"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO18)
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ULN2803ADWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Drivers/Receivers"; Value = "8/0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "18-SOIC (7.5mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Protocol"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-15777-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Darlington Array"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "5V"; VariantName = "[No Variations]"
+Added Component: Designator=U?(SO14)
+Add component (AddParameter): Name = "NI?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "O?"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Section"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "ST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field2"; Value = "M74HC04M1R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field3"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field4"; Value = "511-M74HC04M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field5"; Value = "SO-14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field6"; Value = ".22"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=VCC Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=F?-1
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=+5 Pin=J?-7
+Added Pin To Net: NetName=+5 Pin=J?-8
+Added Pin To Net: NetName=COL1 Pin=J?_KEY1-1
+Added Pin To Net: NetName=COL2 Pin=J?_KEY1-3
+Added Pin To Net: NetName=COL3 Pin=J?_KEY1-5
+Added Pin To Net: NetName=COL4 Pin=J?_KEY1-7
+Added Pin To Net: NetName=COL1 Pin=J?_KEY2-1
+Added Pin To Net: NetName=COL2 Pin=J?_KEY2-3
+Added Pin To Net: NetName=COL3 Pin=J?_KEY2-5
+Added Pin To Net: NetName=COL4 Pin=J?_KEY2-7
+Added Pin To Net: NetName=COL1 Pin=J?_KEY3-1
+Added Pin To Net: NetName=COL2 Pin=J?_KEY3-3
+Added Pin To Net: NetName=COL3 Pin=J?_KEY3-5
+Added Pin To Net: NetName=COL4 Pin=J?_KEY3-7
+Added Pin To Net: NetName=COL1 Pin=J?_KEY4-1
+Added Pin To Net: NetName=COL2 Pin=J?_KEY4-3
+Added Pin To Net: NetName=COL3 Pin=J?_KEY4-5
+Added Pin To Net: NetName=COL4 Pin=J?_KEY4-7
+Change Net Name : Old Net Name=Net*_1 New Net Name=+5
+Change Net Name : Old Net Name=Net*_2 New Net Name=GND
+Change Net Name : Old Net Name=Net*_3 New Net Name=MOSI_DATA
+Added Pin To Net: NetName=KEY4_LATCH Pin=*-4
+Added Pin To Net: NetName=KEY4_LATCH Pin=J?-4
+Added Net: Name=KEY4_LATCH
+Added Pin To Net: NetName=KEY4_MOSI Pin=J?-6
+Added Net: Name=KEY4_MOSI
+Added Pin To Net: NetName=KEY4_SCK Pin=*-5
+Added Pin To Net: NetName=KEY4_SCK Pin=J?-2
+Added Net: Name=KEY4_SCK
+Added Pin To Net: NetName=KEY24 Pin=J?_KEY4-4
+Added Net: Name=KEY24
+Added Pin To Net: NetName=KEY34 Pin=J?_KEY4-6
+Added Net: Name=KEY34
+Added Pin To Net: NetName=KEY44 Pin=J?_KEY4-8
+Added Net: Name=KEY44
+Added Class: Name=KEY1
+Added Class: Name=KEY2
+Added Class: Name=KEY3
+Added Class: Name=KEY4
+Added Class: Name=ProExtBus
+Added Member To Class: ClassName=Main Member=Component C? CN
+Added Member To Class: ClassName=Power Member=Component C? CN
+Added Member To Class: ClassName=Power Member=Component C? CN-ALU-SMD
+Added Member To Class: ClassName=Power Member=Component C? CN
+Added Member To Class: ClassName=Power Member=Component C? CN
+Added Member To Class: ClassName=Power Member=Component C? CN-ALU-SMD
+Added Member To Class: ClassName=Power Member=Component C? CN
+Added Member To Class: ClassName=Power Member=Component D? Diode
+Added Member To Class: ClassName=Power Member=Component F? 600R@100Mhz
+Added Member To Class: ClassName=Power Member=Component U? LM2576
+Added Room: Name=KEY1
+Added Room: Name=KEY2
+Added Room: Name=KEY3
+Added Room: Name=KEY4
+Added Room: Name=KEY4
+Added Room: Name=ProExtBus

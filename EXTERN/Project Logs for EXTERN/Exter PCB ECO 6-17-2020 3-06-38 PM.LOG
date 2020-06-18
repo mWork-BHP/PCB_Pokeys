@@ -1,0 +1,223 @@
+Added Component: Designator=C?_IN1(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN2(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN3(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN4(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN5(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN6(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN7(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN8(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN9(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN10(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=C?_IN11(JP3-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC?_IN1_2 Pin=C?_IN1-2
+Added Net: Name=NetC?_IN1_2
+Added Pin To Net: NetName=NetC?_IN2_2 Pin=C?_IN2-2
+Added Net: Name=NetC?_IN2_2
+Added Pin To Net: NetName=NetC?_IN3_2 Pin=C?_IN3-2
+Added Net: Name=NetC?_IN3_2
+Added Pin To Net: NetName=NetC?_IN4_2 Pin=C?_IN4-2
+Added Net: Name=NetC?_IN4_2
+Added Pin To Net: NetName=NetC?_IN5_2 Pin=C?_IN5-2
+Added Net: Name=NetC?_IN5_2
+Added Pin To Net: NetName=NetC?_IN6_2 Pin=C?_IN6-2
+Added Net: Name=NetC?_IN6_2
+Added Pin To Net: NetName=NetC?_IN7_2 Pin=C?_IN7-2
+Added Net: Name=NetC?_IN7_2
+Added Pin To Net: NetName=NetC?_IN8_2 Pin=C?_IN8-2
+Added Net: Name=NetC?_IN8_2
+Added Pin To Net: NetName=NetC?_IN9_2 Pin=C?_IN9-2
+Added Net: Name=NetC?_IN9_2
+Added Pin To Net: NetName=NetC?_IN10_2 Pin=C?_IN10-2
+Added Net: Name=NetC?_IN10_2
+Added Pin To Net: NetName=NetC?_IN11_2 Pin=C?_IN11-2
+Added Net: Name=NetC?_IN11_2
+Added Class: Name=IN1
+Added Class: Name=IN2
+Added Class: Name=IN3
+Added Class: Name=IN4
+Added Class: Name=IN5
+Added Class: Name=IN6
+Added Class: Name=IN7
+Added Class: Name=IN8
+Added Class: Name=IN9
+Added Class: Name=IN10
+Added Class: Name=IN11
+Added Member To Class: ClassName=EXTERN Member=Component C? 10nF
+Added Member To Class: ClassName=EXTERN Member=Component C? CN
+Added Member To Class: ClassName=EXTERN Member=Component C? CN
+Added Member To Class: ClassName=EXTERN Member=Component C? CN-ALU-SMD
+Added Member To Class: ClassName=EXTERN Member=Component C? 10nF
+Added Member To Class: ClassName=EXTERN Member=Component C? CN-ALU-SMD
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=ProExtBus Member=Component C? CN
+Added Member To Class: ClassName=EXTERN Member=Component D? Diode
+Added Member To Class: ClassName=EXTERN Member=Component D? Diode
+Added Member To Class: ClassName=ProExtBus Member=Component IC? 74HC595
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component LED? LED
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? 10K
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? 1K
+Added Member To Class: ClassName=ProExtBus Member=Component R? 1K
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? 10K
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? 1K
+Added Member To Class: ClassName=ProExtBus Member=Component R? 1K
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=ProExtBus Member=Component R? 10K
+Added Member To Class: ClassName=ProExtBus Member=Component R? R
+Added Member To Class: ClassName=EXTERN Member=Component TP? TP
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Member To Class: ClassName=ProExtBus Member=Component U? 7414
+Added Room: Name=IN1
+Added Room: Name=IN2
+Added Room: Name=IN3
+Added Room: Name=IN4
+Added Room: Name=IN5
+Added Room: Name=IN6
+Added Room: Name=IN7
+Added Room: Name=IN8
+Added Room: Name=IN9
+Added Room: Name=IN10
+Added Room: Name=IN11

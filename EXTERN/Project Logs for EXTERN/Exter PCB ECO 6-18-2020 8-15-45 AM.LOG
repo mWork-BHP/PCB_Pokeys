@@ -1,0 +1,19 @@
+Removed Member From Class: ClassName=ProExtBus Member=LED1
+Change Component Comment : Designator=R11 Old Comment=2.2K New Comment=R
+Change Component Comment : Designator=C10 Old Comment=10nF New Comment=CN
+Change Component Comment : Designator=C15 Old Comment=100nF New Comment=CN
+Added Component: Designator=C18(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C20(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=+5 Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=+5 Pin=C19-2
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=+5 Pin=C20-2
+Added Member To Class: ClassName=ProExtBus Member=Component C18 CN
+Added Member To Class: ClassName=ProExtBus Member=Component C19 CN
+Added Member To Class: ClassName=ProExtBus Member=Component C20 CN

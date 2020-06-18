@@ -1,0 +1,36 @@
+Added Component: Designator=R23_KEY1(RES-SMD-0603_BIG)
+Added Component: Designator=R23_KEY2(RES-SMD-0603_BIG)
+Added Component: Designator=R23_KEY3(RES-SMD-0603_BIG)
+Added Component: Designator=R27_KEY1(RES-SMD-0603_BIG)
+Added Component: Designator=R27_KEY2(RES-SMD-0603_BIG)
+Added Component: Designator=R27_KEY3(RES-SMD-0603_BIG)
+Added Pin To Net: NetName=GND Pin=R23_KEY1-2
+Added Pin To Net: NetName=GND Pin=R23_KEY2-2
+Added Pin To Net: NetName=GND Pin=R23_KEY3-2
+Added Pin To Net: NetName=GND Pin=R27_KEY1-1
+Added Pin To Net: NetName=GND Pin=R27_KEY2-1
+Added Pin To Net: NetName=GND Pin=R27_KEY3-1
+Added Pin To Net: NetName=NetJ4_KEY1_L1- Pin=J4_KEY1-L1-
+Added Pin To Net: NetName=NetJ4_KEY1_L1- Pin=R23_KEY1-1
+Added Net: Name=NetJ4_KEY1_L1-
+Added Pin To Net: NetName=NetJ4_KEY1_L2- Pin=J4_KEY1-L2-
+Added Pin To Net: NetName=NetJ4_KEY1_L2- Pin=R27_KEY1-2
+Added Net: Name=NetJ4_KEY1_L2-
+Added Pin To Net: NetName=NetJ4_KEY2_L1- Pin=J4_KEY2-L1-
+Added Pin To Net: NetName=NetJ4_KEY2_L1- Pin=R23_KEY2-1
+Added Net: Name=NetJ4_KEY2_L1-
+Added Pin To Net: NetName=NetJ4_KEY2_L2- Pin=J4_KEY2-L2-
+Added Pin To Net: NetName=NetJ4_KEY2_L2- Pin=R27_KEY2-2
+Added Net: Name=NetJ4_KEY2_L2-
+Added Pin To Net: NetName=NetJ4_KEY3_L1- Pin=J4_KEY3-L1-
+Added Pin To Net: NetName=NetJ4_KEY3_L1- Pin=R23_KEY3-1
+Added Net: Name=NetJ4_KEY3_L1-
+Added Pin To Net: NetName=NetJ4_KEY3_L2- Pin=J4_KEY3-L2-
+Added Pin To Net: NetName=NetJ4_KEY3_L2- Pin=R27_KEY3-2
+Added Net: Name=NetJ4_KEY3_L2-
+Added Member To Class: ClassName=KEY1 Member=Component R23_KEY1 (R23) R
+Added Member To Class: ClassName=KEY2 Member=Component R23_KEY2 (R23) R
+Added Member To Class: ClassName=KEY3 Member=Component R23_KEY3 (R23) R
+Added Member To Class: ClassName=KEY1 Member=Component R27_KEY1 (R27) R
+Added Member To Class: ClassName=KEY2 Member=Component R27_KEY2 (R27) R
+Added Member To Class: ClassName=KEY3 Member=Component R27_KEY3 (R27) R

@@ -1,0 +1,41 @@
+Removed Member From Class: ClassName=Main Member=F2
+Added Pin To Net: NetName=KEY11 Pin=C25_KEY1-2
+Added Pin To Net: NetName=KEY12 Pin=C25_KEY2-2
+Added Pin To Net: NetName=KEY13 Pin=C25_KEY3-2
+Added Pin To Net: NetName=KEY21 Pin=C26_KEY1-2
+Added Pin To Net: NetName=KEY22 Pin=C26_KEY2-2
+Added Pin To Net: NetName=KEY23 Pin=C26_KEY3-2
+Added Pin To Net: NetName=KEY31 Pin=C27_KEY1-2
+Added Pin To Net: NetName=KEY32 Pin=C27_KEY2-2
+Added Pin To Net: NetName=KEY33 Pin=C27_KEY3-2
+Added Pin To Net: NetName=KEY41 Pin=C28_KEY1-2
+Added Pin To Net: NetName=KEY42 Pin=C28_KEY2-2
+Added Pin To Net: NetName=KEY43 Pin=C28_KEY3-2
+Added Pin To Net: NetName=5V Pin=F3-1
+Added Pin To Net: NetName=KEY11 Pin=J4_KEY1-2
+Added Pin To Net: NetName=KEY21 Pin=J4_KEY1-4
+Added Pin To Net: NetName=KEY31 Pin=J4_KEY1-6
+Added Pin To Net: NetName=KEY41 Pin=J4_KEY1-8
+Added Pin To Net: NetName=KEY12 Pin=J4_KEY2-2
+Added Pin To Net: NetName=KEY22 Pin=J4_KEY2-4
+Added Pin To Net: NetName=KEY32 Pin=J4_KEY2-6
+Added Pin To Net: NetName=KEY42 Pin=J4_KEY2-8
+Added Pin To Net: NetName=KEY13 Pin=J4_KEY3-2
+Added Pin To Net: NetName=KEY23 Pin=J4_KEY3-4
+Added Pin To Net: NetName=KEY33 Pin=J4_KEY3-6
+Added Pin To Net: NetName=KEY43 Pin=J4_KEY3-8
+Added Pin To Net: NetName=KEY11 Pin=R8_KEY1-2
+Added Pin To Net: NetName=KEY12 Pin=R8_KEY2-2
+Added Pin To Net: NetName=KEY13 Pin=R8_KEY3-2
+Added Pin To Net: NetName=KEY21 Pin=R9_KEY1-2
+Added Pin To Net: NetName=KEY22 Pin=R9_KEY2-2
+Added Pin To Net: NetName=KEY23 Pin=R9_KEY3-2
+Added Pin To Net: NetName=KEY31 Pin=R10_KEY1-2
+Added Pin To Net: NetName=KEY32 Pin=R10_KEY2-2
+Added Pin To Net: NetName=KEY33 Pin=R10_KEY3-2
+Added Pin To Net: NetName=KEY41 Pin=R11_KEY1-2
+Added Pin To Net: NetName=KEY42 Pin=R11_KEY2-2
+Added Pin To Net: NetName=KEY43 Pin=R11_KEY3-2
+Added Member To Class: ClassName=Power Member=Component D2 Diode
+Added Member To Class: ClassName=Main Member=Component F1 600R@100Mhz
+Added Member To Class: ClassName=ProExtBus Member=Component IC1 74HC595

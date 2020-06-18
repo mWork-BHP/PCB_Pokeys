@@ -1,0 +1,346 @@
+Protel Design System Design Rule Check
+PCB File : D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\Main\Main\PokeyMain.PcbDoc
+Date     : 6/17/2020
+Time     : 1:38:06 PM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND_L01_P000')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.203mm) (Max=2.54mm) (Preferred=1.27mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-2(174.371mm,96.901mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-2(174.625mm,187.833mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-2(8.647mm,187.944mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-2(8.774mm,96.885mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J?_KEY1-S1(93.729mm,193.803mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J?_KEY1-S2(106.429mm,193.803mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J?_KEY2-S1(112.905mm,193.804mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J?_KEY2-S2(125.605mm,193.804mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J?_KEY3-S1(132.08mm,193.677mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J?_KEY3-S2(144.78mm,193.677mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad J2-26(40.935mm,90.193mm) on Multi-Layer Actual Hole Size = 3.26mm
+   Violation between Hole Size Constraint: (3.26mm > 2.54mm) Pad J2-27(87.987mm,90.193mm) on Multi-Layer Actual Hole Size = 3.26mm
+   Violation between Hole Size Constraint: (3.18mm > 2.54mm) Pad J2-38(104.737mm,90.268mm) on Multi-Layer Actual Hole Size = 3.18mm
+   Violation between Hole Size Constraint: (3.18mm > 2.54mm) Pad J2-39(168.438mm,90.249mm) on Multi-Layer Actual Hole Size = 3.18mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J3-S1(151.767mm,193.677mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J3-S2(164.467mm,193.677mm) on Multi-Layer Actual Hole Size = 3.25mm
+Rule Violations :16
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.025mm < 0.254mm) Between Pad C1-2(29.972mm,182.499mm) on Top Layer And Pad DC1-3(29.464mm,180.721mm) on Multi-Layer [Top Solder] Mask Sliver [0.025mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.086mm < 0.254mm) Between Pad C25_KEY3-2(90.297mm,122.682mm) on Top Layer And Via (88.773mm,122.682mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.086mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.213mm < 0.254mm) Between Pad C26_KEY2-2(90.424mm,130.429mm) on Top Layer And Via (88.773mm,130.302mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.213mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.086mm < 0.254mm) Between Pad C26_KEY3-2(90.297mm,120.142mm) on Top Layer And Via (88.773mm,120.015mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.086mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.213mm < 0.254mm) Between Pad C27_KEY2-2(90.424mm,127.762mm) on Top Layer And Via (88.773mm,127.762mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.213mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.072mm < 0.254mm) Between Pad C27_KEY3-2(90.297mm,117.602mm) on Top Layer And Via (88.787mm,117.529mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.072mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.086mm < 0.254mm) Between Pad C28_KEY2-2(90.297mm,125.095mm) on Top Layer And Via (88.773mm,125.222mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.086mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.213mm < 0.254mm) Between Pad C28_KEY3-2(90.297mm,114.681mm) on Top Layer And Via (88.646mm,114.681mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.213mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.07mm < 0.254mm) Between Pad HD1-17(14.224mm,134.493mm) on Multi-Layer And Via (12.5mm,135mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.07mm] / [Bottom Solder] Mask Sliver [0.07mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.121mm < 0.254mm) Between Pad HD1-25(14.224mm,124.333mm) on Multi-Layer And Via (12.5mm,125mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.121mm] / [Bottom Solder] Mask Sliver [0.121mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.185mm < 0.254mm) Between Pad HD1-33(14.224mm,114.173mm) on Multi-Layer And Via (12.5mm,115mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.185mm] / [Bottom Solder] Mask Sliver [0.185mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.251mm < 0.254mm) Between Pad J?_KEY1-S1(93.729mm,193.803mm) on Multi-Layer And Pad J?_KEY1-S4(91.954mm,190.373mm) on Multi-Layer [Top Solder] Mask Sliver [0.251mm] / [Bottom Solder] Mask Sliver [0.251mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.251mm < 0.254mm) Between Pad J?_KEY2-S2(125.605mm,193.804mm) on Multi-Layer And Pad J?_KEY2-S3(127.38mm,190.374mm) on Multi-Layer [Top Solder] Mask Sliver [0.251mm] / [Bottom Solder] Mask Sliver [0.251mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.175mm < 0.254mm) Between Pad J?_KEY2-S3(127.38mm,190.374mm) on Multi-Layer And Pad J?_KEY3-S4(130.305mm,190.247mm) on Multi-Layer [Top Solder] Mask Sliver [0.175mm] / [Bottom Solder] Mask Sliver [0.175mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.251mm < 0.254mm) Between Pad J?_KEY3-S1(132.08mm,193.677mm) on Multi-Layer And Pad J?_KEY3-S4(130.305mm,190.247mm) on Multi-Layer [Top Solder] Mask Sliver [0.251mm] / [Bottom Solder] Mask Sliver [0.251mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.251mm < 0.254mm) Between Pad J?_KEY3-S2(144.78mm,193.677mm) on Multi-Layer And Pad J?_KEY3-S3(146.555mm,190.247mm) on Multi-Layer [Top Solder] Mask Sliver [0.251mm] / [Bottom Solder] Mask Sliver [0.251mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.209mm < 0.254mm) Between Pad J2-39(168.438mm,90.249mm) on Multi-Layer And Via (165mm,90mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.209mm] / [Bottom Solder] Mask Sliver [0.209mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.251mm < 0.254mm) Between Pad J3-S1(151.767mm,193.677mm) on Multi-Layer And Pad J3-S4(149.992mm,190.247mm) on Multi-Layer [Top Solder] Mask Sliver [0.251mm] / [Bottom Solder] Mask Sliver [0.251mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.251mm < 0.254mm) Between Pad J3-S2(164.467mm,193.677mm) on Multi-Layer And Pad J3-S3(166.242mm,190.247mm) on Multi-Layer [Top Solder] Mask Sliver [0.251mm] / [Bottom Solder] Mask Sliver [0.251mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.067mm < 0.254mm) Between Pad LED2_Photo2-2(60.96mm,94.996mm) on Top Layer And Via (62.5mm,95mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.067mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.125mm < 0.254mm) Between Pad POKEY1-0(40.132mm,186.563mm) on Top Layer And Via (37.5mm,185mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.125mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.239mm < 0.254mm) Between Pad POKEY1-0(40.132mm,186.563mm) on Top Layer And Via (42.5mm,185mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.239mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.159mm < 0.254mm) Between Pad R10_KEY1-1(87.376mm,158.623mm) on Top Layer And Via (88.773mm,158.75mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.159mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R10_KEY2-1(87.362mm,127.762mm) on Top Layer And Via (88.773mm,127.762mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R10_KEY3-1(87.376mm,117.602mm) on Top Layer And Via (88.787mm,117.529mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.159mm < 0.254mm) Between Pad R11_KEY1-1(87.376mm,156.21mm) on Top Layer And Via (88.773mm,156.21mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.159mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R11_KEY2-1(87.362mm,125.095mm) on Top Layer And Via (88.773mm,125.222mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.032mm < 0.254mm) Between Pad R18_Photo2-2(52.07mm,99.568mm) on Bottom Layer And Pad U9_Photo2-1(52.197mm,97.79mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.032mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.032mm < 0.254mm) Between Pad R18_Photo3-2(69.342mm,99.441mm) on Bottom Layer And Pad U9_Photo3-1(69.342mm,97.663mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.032mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.032mm < 0.254mm) Between Pad R26-2(91.313mm,99.695mm) on Bottom Layer And Pad U11-1(91.313mm,97.917mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.032mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.159mm < 0.254mm) Between Pad R8_KEY1-1(87.376mm,173.863mm) on Top Layer And Via (88.773mm,173.863mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.159mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R8_KEY2-1(87.362mm,132.715mm) on Top Layer And Via (88.773mm,132.715mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R8_KEY3-1(87.362mm,122.682mm) on Top Layer And Via (88.773mm,122.682mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.032mm < 0.254mm) Between Pad R9_KEY1-1(87.376mm,161.163mm) on Top Layer And Via (88.646mm,161.163mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.032mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R9_KEY2-1(87.362mm,130.302mm) on Top Layer And Via (88.773mm,130.302mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.172mm < 0.254mm) Between Pad R9_KEY3-1(87.362mm,119.993mm) on Top Layer And Via (88.773mm,120.015mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.172mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.103mm < 0.254mm) Between Pad U10-2(99.949mm,97.917mm) on Multi-Layer And Via (100mm,100mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.103mm] / [Bottom Solder] Mask Sliver [0.103mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.079mm < 0.254mm) Between Pad U7-11(154.94mm,98.068mm) on Top Layer And Via (155mm,100mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.079mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.078mm < 0.254mm) Between Pad U7-15(160.02mm,98.068mm) on Top Layer And Via (160mm,100mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.078mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.235mm < 0.254mm) Between Via (94.234mm,180.34mm) from Top Layer to Bottom Layer And Via (95.377mm,179.07mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.235mm] / [Bottom Solder] Mask Sliver [0.235mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.183mm < 0.254mm) Between Via (94.488mm,177.673mm) from Top Layer to Bottom Layer And Via (95.377mm,179.07mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.183mm] / [Bottom Solder] Mask Sliver [0.183mm]
+Rule Violations :41
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Arc (136.04mm,129.761mm) on Top Overlay And Text "C23" (137.922mm,127.509mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Arc (7.112mm,195.834mm) on Top Overlay And Text "LED1" (8.89mm,192.66mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Arc (8.654mm,187.907mm) on Top Overlay And Text "DC1" (5.461mm,183.769mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.124mm < 0.254mm) Between Text "1K" (85.09mm,133.985mm) on Top Overlay And Track (84.712mm,199.023mm)(84.712mm,113.157mm) on Top Overlay Silk Text to Silk Clearance [0.124mm]
+   Violation between Silk To Silk Clearance Constraint: (0.183mm < 0.254mm) Between Text "2K" (35.941mm,101.727mm) on Bottom Overlay And Track (36.195mm,101.981mm)(37.719mm,101.981mm) on Bottom Overlay Silk Text to Silk Clearance [0.183mm]
+   Violation between Silk To Silk Clearance Constraint: (0.077mm < 0.254mm) Between Text "2K" (35.941mm,101.727mm) on Bottom Overlay And Track (36.195mm,98.933mm)(36.195mm,101.981mm) on Bottom Overlay Silk Text to Silk Clearance [0.077mm]
+   Violation between Silk To Silk Clearance Constraint: (0.183mm < 0.254mm) Between Text "2K" (35.941mm,101.727mm) on Bottom Overlay And Track (36.195mm,98.933mm)(37.719mm,98.933mm) on Bottom Overlay Silk Text to Silk Clearance [0.183mm]
+   Violation between Silk To Silk Clearance Constraint: (0.001mm < 0.254mm) Between Text "390" (41.529mm,107.57mm) on Top Overlay And Track (33.277mm,111.887mm)(84.712mm,111.887mm) on Top Overlay Silk Text to Silk Clearance [0.001mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C1" (31.877mm,181.229mm) on Top Overlay And Track (30.734mm,171.323mm)(30.734mm,182.499mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C10" (27.94mm,170.308mm) on Top Overlay And Track (10.922mm,171.323mm)(30.734mm,171.323mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.047mm < 0.254mm) Between Text "C16" (151.892mm,102.49mm) on Top Overlay And Track (137.541mm,106.196mm)(150.114mm,106.196mm) on Top Overlay Silk Text to Silk Clearance [0.047mm]
+   Violation between Silk To Silk Clearance Constraint: (0.027mm < 0.254mm) Between Text "C16" (151.892mm,102.49mm) on Top Overlay And Track (150.114mm,99.496mm)(150.114mm,106.196mm) on Top Overlay Silk Text to Silk Clearance [0.027mm]
+   Violation between Silk To Silk Clearance Constraint: (0.193mm < 0.254mm) Between Text "C170" (136.906mm,102.363mm) on Top Overlay And Track (122.428mm,106.347mm)(135.001mm,106.347mm) on Top Overlay Silk Text to Silk Clearance [0.193mm]
+   Violation between Silk To Silk Clearance Constraint: (0.154mm < 0.254mm) Between Text "C170" (136.906mm,102.363mm) on Top Overlay And Track (135.001mm,99.647mm)(135.001mm,106.347mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "C2" (34.544mm,183.388mm) on Top Overlay And Track (32.766mm,183.007mm)(32.766mm,186.309mm) on Top Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "C2" (34.544mm,183.388mm) on Top Overlay And Track (33.277mm,111.887mm)(33.277mm,199.023mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.19mm < 0.254mm) Between Text "C3" (17.043mm,192.303mm) on Top Overlay And Track (14.859mm,191.897mm)(30.099mm,191.897mm) on Top Overlay Silk Text to Silk Clearance [0.19mm]
+   Violation between Silk To Silk Clearance Constraint: (0.191mm < 0.254mm) Between Text "C9" (26.67mm,155.575mm) on Top Overlay And Track (26.289mm,155.194mm)(29.591mm,155.194mm) on Top Overlay Silk Text to Silk Clearance [0.191mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "CN" (89.027mm,109.474mm) on Bottom Overlay And Track (87.503mm,110.49mm)(89.027mm,110.49mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "CN" (89.027mm,109.474mm) on Bottom Overlay And Track (89.027mm,107.188mm)(89.027mm,110.49mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "CN" (89.027mm,109.474mm) on Bottom Overlay And Track (90.551mm,107.047mm)(90.551mm,110.095mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "CN" (89.027mm,109.474mm) on Bottom Overlay And Track (90.551mm,110.095mm)(92.075mm,110.095mm) on Bottom Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "DC1" (5.461mm,183.769mm) on Top Overlay And Text "TP0V" (7.379mm,182.766mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "F2" (20.828mm,170.815mm) on Top Overlay And Track (10.922mm,171.323mm)(30.734mm,171.323mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.02mm < 0.254mm) Between Text "F3" (140.274mm,121.666mm) on Top Overlay And Track (138.909mm,123.437mm)(140.509mm,123.437mm) on Top Overlay Silk Text to Silk Clearance [0.02mm]
+   Violation between Silk To Silk Clearance Constraint: (0.02mm < 0.254mm) Between Text "F3" (140.274mm,121.666mm) on Top Overlay And Track (141.309mm,123.437mm)(142.909mm,123.437mm) on Top Overlay Silk Text to Silk Clearance [0.02mm]
+   Violation between Silk To Silk Clearance Constraint: (0.195mm < 0.254mm) Between Text "F3" (140.274mm,121.666mm) on Top Overlay And Track (142.909mm,123.437mm)(142.909mm,125.737mm) on Top Overlay Silk Text to Silk Clearance [0.195mm]
+   Violation between Silk To Silk Clearance Constraint: (0.244mm < 0.254mm) Between Text "GND" (18.242mm,191.564mm) on Top Overlay And Track (14.859mm,191.897mm)(14.859mm,193.421mm) on Top Overlay Silk Text to Silk Clearance [0.244mm]
+   Violation between Silk To Silk Clearance Constraint: (0.244mm < 0.254mm) Between Text "GND" (18.242mm,191.564mm) on Top Overlay And Track (14.859mm,191.897mm)(30.099mm,191.897mm) on Top Overlay Silk Text to Silk Clearance [0.244mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "GND" (18.242mm,191.564mm) on Top Overlay And Track (18.404mm,187.35mm)(18.404mm,191.475mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "GND" (18.242mm,191.564mm) on Top Overlay And Track (18.404mm,191.475mm)(26.704mm,191.475mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.252mm < 0.254mm) Between Text "IC4" (158.878mm,112.594mm) on Top Overlay And Track (155.705mm,112.115mm)(165.605mm,112.115mm) on Top Overlay Silk Text to Silk Clearance [0.252mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "J2" (98.679mm,87.503mm) on Top Overlay And Track (101.397mm,80.768mm)(101.397mm,93.268mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "J5" (102.108mm,97.282mm) on Top Overlay And Track (104.902mm,97.917mm)(104.902mm,101.219mm) on Top Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (0.064mm < 0.254mm) Between Text "J5" (102.108mm,97.282mm) on Top Overlay And Track (104.902mm,97.917mm)(106.426mm,97.917mm) on Top Overlay Silk Text to Silk Clearance [0.064mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "LED1" (8.89mm,192.66mm) on Top Overlay And Text "TP1" (5.462mm,192.024mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "R1" (13.081mm,196.977mm) on Top Overlay And Track (14.859mm,194.183mm)(14.859mm,204.089mm) on Top Overlay Silk Text to Silk Clearance [0mm]
+   Violation between Silk To Silk Clearance Constraint: (0.013mm < 0.254mm) Between Text "TP0V" (7.379mm,182.766mm) on Top Overlay And Track (10.795mm,177.038mm)(10.795mm,182.499mm) on Top Overlay Silk Text to Silk Clearance [0.013mm]
+   Violation between Silk To Silk Clearance Constraint: (0.013mm < 0.254mm) Between Text "TP0V" (7.379mm,182.766mm) on Top Overlay And Track (10.795mm,182.499mm)(30.734mm,182.499mm) on Top Overlay Silk Text to Silk Clearance [0.013mm]
+   Violation between Silk To Silk Clearance Constraint: (0.068mm < 0.254mm) Between Text "TP5V" (26.683mm,105.55mm) on Top Overlay And Track (31.877mm,105.279mm)(34.417mm,105.279mm) on Top Overlay Silk Text to Silk Clearance [0.068mm]
+   Violation between Silk To Silk Clearance Constraint: (0.068mm < 0.254mm) Between Text "TP5V" (26.683mm,105.55mm) on Top Overlay And Track (31.877mm,97.159mm)(31.877mm,105.279mm) on Top Overlay Silk Text to Silk Clearance [0.068mm]
+   Violation between Silk To Silk Clearance Constraint: (0.038mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (14.859mm,191.897mm)(30.099mm,191.897mm) on Top Overlay Silk Text to Silk Clearance [0.038mm]
+   Violation between Silk To Silk Clearance Constraint: (0.063mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (18.404mm,191.475mm)(26.704mm,191.475mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]
+   Violation between Silk To Silk Clearance Constraint: (0.222mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (25.679mm,191.475mm)(26.679mm,190.475mm) on Top Overlay Silk Text to Silk Clearance [0.222mm]
+   Violation between Silk To Silk Clearance Constraint: (0.024mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (26.704mm,187.325mm)(26.704mm,189.975mm) on Top Overlay Silk Text to Silk Clearance [0.024mm]
+   Violation between Silk To Silk Clearance Constraint: (0.177mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (26.704mm,187.325mm)(26.704mm,190.625mm) on Top Overlay Silk Text to Silk Clearance [0.177mm]
+   Violation between Silk To Silk Clearance Constraint: (0.063mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (26.704mm,187.325mm)(26.704mm,191.475mm) on Top Overlay Silk Text to Silk Clearance [0.063mm]
+   Violation between Silk To Silk Clearance Constraint: (0.177mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (26.704mm,190.625mm)(26.704mm,190.625mm) on Top Overlay Silk Text to Silk Clearance [0.177mm]
+   Violation between Silk To Silk Clearance Constraint: (0.039mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (29.811mm,186.81mm)(29.811mm,189.11mm) on Top Overlay Silk Text to Silk Clearance [0.039mm]
+   Violation between Silk To Silk Clearance Constraint: (0.039mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (29.811mm,189.11mm)(31.411mm,189.11mm) on Top Overlay Silk Text to Silk Clearance [0.039mm]
+   Violation between Silk To Silk Clearance Constraint: (0.213mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (30.099mm,191.897mm)(30.099mm,204.089mm) on Top Overlay Silk Text to Silk Clearance [0.213mm]
+   Violation between Silk To Silk Clearance Constraint: (0.039mm < 0.254mm) Between Text "VPP" (32.336mm,191.47mm) on Top Overlay And Track (32.211mm,189.11mm)(33.811mm,189.11mm) on Top Overlay Silk Text to Silk Clearance [0.039mm]
+Rule Violations :52
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1'))
+   Violation between Room Definition: Between Component U8_Photo1-PC847 (42.672mm,97.79mm) on Top Layer And Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) 
+   Violation between Room Definition: Between Component U9_Photo1-PC847 (36.957mm,97.79mm) on Top Layer And Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And Small Component C29_Photo1-JP3 (33.147mm,103.759mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component C30_Photo1-CN (45.339mm,108.585mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component C31_Photo1-CN (39.624mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component LED2_Photo1-LED (43.434mm,95.123mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component LED3_Photo1-LED (37.211mm,94.996mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component R12_Photo1-5K (42.799mm,108.585mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component R13_Photo1-390 (42.799mm,108.585mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component R14_Photo1-2K (42.672mm,100.457mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component R16_Photo1-5K (36.957mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component R17_Photo1-390 (36.957mm,108.839mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo1 (Bounding Region = (263.269mm, 202.438mm, 496.441mm, 215.9mm) (InComponentClass('Photo1')) And SMT Small Component R18_Photo1-2K (36.957mm,100.457mm) on Bottom Layer 
+Rule Violations :13
+
+Processing Rule : Room ENC (Bounding Region = (302.26mm, 81.788mm, 328.803mm, 138.176mm) (InComponentClass('ENC'))
+   Violation between Room Definition: Between Component J2-A32125-ND (64.461mm,80.693mm) on Bottom Layer And Room ENC (Bounding Region = (302.26mm, 81.788mm, 328.803mm, 138.176mm) (InComponentClass('ENC')) 
+   Violation between Room Definition: Between Component J2-DB37 Female (138.132mm,88.852mm) on Top Layer And Room ENC (Bounding Region = (302.26mm, 81.788mm, 328.803mm, 138.176mm) (InComponentClass('ENC')) 
+   Violation between Room Definition: Between Room ENC (Bounding Region = (302.26mm, 81.788mm, 328.803mm, 138.176mm) (InComponentClass('ENC')) And Small Component TP2-TP (94.615mm,89.662mm) on Top Layer 
+   Violation between Room Definition: Between Room ENC (Bounding Region = (302.26mm, 81.788mm, 328.803mm, 138.176mm) (InComponentClass('ENC')) And Small Component TP3-TP (33.655mm,90.551mm) on Top Layer 
+Rule Violations :4
+
+Processing Rule : Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus'))
+   Violation between Room Definition: Between Component J2-A32125-ND (64.461mm,80.693mm) on Bottom Layer And Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) 
+   Violation between Room Definition: Between Component J2-DB37 Female (138.132mm,88.852mm) on Top Layer And Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And Small Component J5-Jumper 2 (104.648mm,95.25mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C11-CN (136.525mm,133.096mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C12-CN (132.207mm,133.096mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C13-CN (127.889mm,133.096mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C14-CN (167.513mm,113.919mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C15-CN (158.115mm,194.056mm) on Bottom Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C16-CN (151.257mm,99.695mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C170-CN (136.271mm,99.822mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C180-CN (105.664mm,99.568mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C19-CN (121.285mm,101.981mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C20-CN (139.446mm,115.062mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C21-CN (108.458mm,115.443mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C22-CN (123.063mm,115.316mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C23-CN (137.033mm,125.349mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component C24-CN (154.178mm,114.935mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component F3-600R@100Mhz (140.909mm,124.587mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component R2-1K (137.414mm,135.89mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component R3-1K (133.223mm,135.89mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component R4-1K (129.159mm,135.89mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component R5-10K (135.382mm,136.017mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component R6-10K (131.318mm,136.017mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SMT Small Component R7-10K (127.127mm,135.89mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component IC1-74HC595 (115.316mm,113.571mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component IC2-74HC595 (130.556mm,113.538mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component IC3-74HC595 (145.669mm,113.632mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component IC4-74HC595 (160.655mm,113.665mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component U3-ULN2803 (113.411mm,102.87mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component U4-ULN2803 (128.651mm,102.997mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component U5-ULN2803 (143.764mm,102.846mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component U6-7414 (131.405mm,127.061mm) on Top Layer 
+   Violation between Room Definition: Between Room ProExtBus (Bounding Region = (236.728mm, 119.761mm, 413.004mm, 193.294mm) (InComponentClass('ProExtBus')) And SOIC Component U7-ULN2803 (158.75mm,102.743mm) on Top Layer 
+Rule Violations :33
+
+Processing Rule : Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2'))
+   Violation between Room Definition: Between Component U8_Photo2-PC847 (58.166mm,97.79mm) on Top Layer And Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) 
+   Violation between Room Definition: Between Component U9_Photo2-PC847 (52.197mm,97.79mm) on Top Layer And Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And Small Component C29_Photo2-JP3 (48.133mm,103.632mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component C30_Photo2-CN (60.833mm,108.839mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component C31_Photo2-CN (54.864mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component LED2_Photo2-LED (58.674mm,94.996mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component LED3_Photo2-LED (53.467mm,95.123mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component R12_Photo2-5K (58.293mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component R13_Photo2-390 (58.293mm,108.839mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component R14_Photo2-2K (58.2mm,100.876mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component R16_Photo2-5K (52.275mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component R17_Photo2-390 (52.197mm,108.712mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo2 (Bounding Region = (362.71mm, 255.778mm, 603.502mm, 267.208mm) (InComponentClass('Photo2')) And SMT Small Component R18_Photo2-2K (52.07mm,100.584mm) on Bottom Layer 
+Rule Violations :13
+
+Processing Rule : Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3'))
+   Violation between Room Definition: Between Component U8_Photo3-PC847 (75.438mm,97.663mm) on Top Layer And Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) 
+   Violation between Room Definition: Between Component U9_Photo3-PC847 (69.342mm,97.663mm) on Top Layer And Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And Small Component C29_Photo3-JP3 (64.643mm,104.013mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component C30_Photo3-CN (78.232mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component C31_Photo3-CN (72.009mm,108.585mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component LED2_Photo3-LED (77.597mm,95.25mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component LED3_Photo3-LED (71.882mm,95.123mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component R12_Photo3-5K (75.184mm,108.571mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component R13_Photo3-390 (75.184mm,108.585mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component R14_Photo3-2K (75.438mm,100.33mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component R16_Photo3-5K (69.469mm,108.444mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component R17_Photo3-390 (69.469mm,108.839mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo3 (Bounding Region = (273.558mm, 331.851mm, 514.35mm, 343.281mm) (InComponentClass('Photo3')) And SMT Small Component R18_Photo3-2K (69.342mm,100.457mm) on Bottom Layer 
+Rule Violations :13
+
+Processing Rule : Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo'))
+   Violation between Room Definition: Between Component U10-PC847 (97.409mm,97.917mm) on Top Layer And Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) 
+   Violation between Room Definition: Between Component U11-PC847 (91.313mm,97.917mm) on Top Layer And Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) 
+   Violation between Room Definition: Between Component U12-PC847 (85.471mm,97.917mm) on Top Layer And Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And Small Component C32-JP3 (81.28mm,104.267mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component C33-CN (100.838mm,108.839mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component C34-CN (93.98mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component C35-CN (88.265mm,108.839mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component LED4-LED (99.695mm,94.996mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component LED5-LED (93.853mm,95.25mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component LED6-LED (88.138mm,95.504mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R20-5K (98.044mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R21-390 (97.79mm,108.839mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R22-2K (97.409mm,100.584mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R24-5K (91.313mm,108.571mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R25-390 (91.313mm,108.712mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R26-2K (91.313mm,100.711mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R28-5K (85.598mm,108.712mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R29-390 (85.598mm,109.093mm) on Top Layer 
+   Violation between Room Definition: Between Room Photo (Bounding Region = (235.458mm, 40.767mm, 369.697mm, 53.975mm) (InComponentClass('Photo')) And SMT Small Component R30-2K (85.471mm,100.584mm) on Bottom Layer 
+Rule Violations :19
+
+Processing Rule : Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main'))
+   Violation between Room Definition: Between Component POKEY1-Pokey (40.262mm,117.602mm) on Top Layer And Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) 
+   Violation between Room Definition: Between DIP Component HD1-IDC20X2 (14.224mm,154.813mm) on Top Layer And Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And SIP Component *-Pokey_Jack (124.206mm,142.748mm) on Top Layer 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And Small Component TP0V-TP (8.382mm,180.721mm) on Top Layer 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And Small Component TP5V-TP (27.686mm,103.505mm) on Top Layer 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And SMT Small Component C1-CN (30.861mm,182.499mm) on Top Layer 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And SMT Small Component C2-CN (32.004mm,184.658mm) on Top Layer 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And SMT Small Component F1-600R@100Mhz (31.811mm,187.96mm) on Top Layer 
+   Violation between Room Definition: Between Room Main (Bounding Region = (322.453mm, 73.406mm, 401.447mm, 166.37mm) (InComponentClass('Main')) And SMT Small Component mWorkLogo1-LogoMwork (107.696mm,155.58mm) on Top Layer 
+Rule Violations :9
+
+Processing Rule : Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2'))
+   Violation between Room Definition: Between Component J?_KEY2-615008142121 (119.255mm,191.389mm) on Top Layer And Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component C25_KEY2-CN (91.44mm,132.842mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component C26_KEY2-CN (91.313mm,130.429mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component C27_KEY2-CN (91.313mm,127.762mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component C28_KEY2-CN (91.186mm,125.095mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component R10_KEY2-1K (86.346mm,127.762mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component R11_KEY2-1K (86.346mm,125.095mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component R8_KEY2-1K (86.346mm,132.715mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY2 (Bounding Region = (111.379mm, 181.864mm, 127.635mm, 199.898mm) (InComponentClass('KEY2')) And SMT Small Component R9_KEY2-1K (86.346mm,130.302mm) on Top Layer 
+Rule Violations :9
+
+Processing Rule : Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1'))
+   Violation between Room Definition: Between Component J?_KEY1-615008142121 (100.079mm,191.388mm) on Top Layer And Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component C25_KEY1-CN (91.821mm,173.863mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component C26_KEY1-CN (91.694mm,161.163mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component C27_KEY1-CN (91.694mm,158.877mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component C28_KEY1-CN (91.821mm,156.21mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component R10_KEY1-1K (86.36mm,158.623mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component R11_KEY1-1K (86.36mm,156.21mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component R23_KEY1-R (94.361mm,186.944mm) on Bottom Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component R27_KEY1-R (105.791mm,186.817mm) on Bottom Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component R8_KEY1-1K (86.36mm,173.863mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY1 (Bounding Region = (83.058mm, 217.658mm, 99.314mm, 244.348mm) (InComponentClass('KEY1')) And SMT Small Component R9_KEY1-1K (86.36mm,161.163mm) on Top Layer 
+Rule Violations :11
+
+Processing Rule : Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power'))
+   Violation between Room Definition: Between Component U2-LM1117-3.3V (24.638mm,164.973mm) on Top Layer And Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SIP Component DC1-DC_V2 (30.734mm,171.323mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And Small Component J1-KF3 (27.559mm,193.802mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And Small Component TP1-TP (7.112mm,195.834mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C10-CN (25.019mm,171.704mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C3-CN-ALU-SMD (22.479mm,187.325mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C4-CN (24.638mm,179.832mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C5-CN-ALU-SMD (13.716mm,166.497mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C6-CN (26.543mm,179.705mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C8-CN (23.749mm,174.879mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component C9-CN (27.94mm,154.432mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component D1-Diode (22.86mm,188.976mm) on Bottom Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component F2-600R@100Mhz (22.606mm,171.77mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component LED1-LED (10.414mm,195.961mm) on Top Layer 
+   Violation between Room Definition: Between Room Power (Bounding Region = (309.245mm, 128.143mm, 438.912mm, 155.067mm) (InComponentClass('Power')) And SMT Small Component R1-R (13.335mm,194.818mm) on Top Layer 
+Rule Violations :15
+
+Processing Rule : Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3'))
+   Violation between Room Definition: Between Component J?_KEY3-615008142121 (138.43mm,191.262mm) on Top Layer And Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component C25_KEY3-CN (91.186mm,122.682mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component C26_KEY3-CN (91.186mm,120.142mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component C27_KEY3-CN (91.186mm,117.602mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component C28_KEY3-CN (91.186mm,114.681mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component R10_KEY3-1K (86.36mm,117.602mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component R11_KEY3-1K (86.487mm,114.681mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component R23_KEY3-R (132.588mm,186.817mm) on Bottom Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component R27_KEY3-R (144.272mm,186.563mm) on Bottom Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component R8_KEY3-1K (86.346mm,122.682mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY3 (Bounding Region = (166.116mm, 224.536mm, 182.372mm, 246.634mm) (InComponentClass('KEY3')) And SMT Small Component R9_KEY3-1K (86.346mm,119.993mm) on Top Layer 
+Rule Violations :11
+
+Processing Rule : Room KEY4 (Bounding Region = (148.773mm, 183.261mm, 165.029mm, 198.12mm) (InComponentClass('KEY4'))
+   Violation between Room Definition: Between Component J3-615008142121 (158.117mm,191.262mm) on Top Layer And Room KEY4 (Bounding Region = (148.773mm, 183.261mm, 165.029mm, 198.12mm) (InComponentClass('KEY4')) 
+   Violation between Room Definition: Between Room KEY4 (Bounding Region = (148.773mm, 183.261mm, 165.029mm, 198.12mm) (InComponentClass('KEY4')) And SMT Small Component R15-R (152.781mm,180.594mm) on Top Layer 
+   Violation between Room Definition: Between Room KEY4 (Bounding Region = (148.773mm, 183.261mm, 165.029mm, 198.12mm) (InComponentClass('KEY4')) And SMT Small Component R19-R (163.957mm,180.467mm) on Top Layer 
+Rule Violations :3
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 262
+Waived Violations : 0
+Time Elapsed        : 00:00:02

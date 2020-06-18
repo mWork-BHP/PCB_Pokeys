@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=DC? NewDesignator=DC1
+Added Pin To Net: NetName=5V Pin=F3-1
+Added Member To Class: ClassName=Power Member=Component C4 CN

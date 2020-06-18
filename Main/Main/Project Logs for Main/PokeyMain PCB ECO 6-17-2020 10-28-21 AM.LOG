@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetJ2_26 Pin=J2-27
+Removed Pin From Net: NetName=NetJ2_26 Pin=TP2-1
+Added Component: Designator=TP3(TP1)
+Add component (AddParameter): Name = "Value"; Value = "Test Point"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=F3-1
+Added Pin To Net: NetName=NetJ2_26 Pin=TP3-1
+Added Pin To Net: NetName=NetJ2_27 Pin=J2-27
+Added Pin To Net: NetName=NetJ2_27 Pin=TP2-1
+Added Net: Name=NetJ2_27
+Added Member To Class: ClassName=Main Member=Component mWorkLogo1 LogoMwork
+Added Member To Class: ClassName=ENC Member=Component TP3 TP

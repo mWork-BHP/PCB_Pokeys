@@ -1,0 +1,10 @@
+Added Component: Designator=LED18(LED-0805-Blue)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 - 5 ly 2 Colour"; VariantName = "[No Variations]"
+Added Component: Designator=R29(RES-SMD-0805)
+Added Pin To Net: NetName=NetD1_1 Pin=LED18-2
+Added Pin To Net: NetName=NetLabel92 Pin=R29-1
+Added Pin To Net: NetName=NetLED18_1 Pin=LED18-1
+Added Pin To Net: NetName=NetLED18_1 Pin=R29-2
+Added Net: Name=NetLED18_1
+Added Member To Class: ClassName=EXTERN Member=Component LED18 LED
+Added Member To Class: ClassName=EXTERN Member=Component R29 1M

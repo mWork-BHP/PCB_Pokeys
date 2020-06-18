@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=O26 Pin=J2-16
+Removed Pin From Net: NetName=O28 Pin=J2-17
+Removed Pin From Net: NetName=O30 Pin=J2-18
+Removed Pin From Net: NetName=O32 Pin=J2-19
+Removed Pin From Net: NetName=O25 Pin=J2-34
+Removed Pin From Net: NetName=O27 Pin=J2-35
+Removed Pin From Net: NetName=O29 Pin=J2-36
+Removed Pin From Net: NetName=O31 Pin=J2-37
+Added Pin To Net: NetName=5V Pin=F3-1
+Added Pin To Net: NetName=O7 Pin=J2-16
+Added Pin To Net: NetName=O5 Pin=J2-17
+Added Pin To Net: NetName=O3 Pin=J2-18
+Added Pin To Net: NetName=O1 Pin=J2-19
+Added Pin To Net: NetName=O8 Pin=J2-34
+Added Pin To Net: NetName=O6 Pin=J2-35
+Added Pin To Net: NetName=O4 Pin=J2-36
+Added Pin To Net: NetName=O2 Pin=J2-37

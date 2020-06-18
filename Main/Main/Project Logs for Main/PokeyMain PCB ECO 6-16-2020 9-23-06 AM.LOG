@@ -1,0 +1,323 @@
+Added Component: Designator=*(JACK5)
+Added Component: Designator=C?(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP-ALU-SMD-6.3x7.7x2.2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP-ALU-SMD-6.3x7.7x2.2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP-ALU-SMD-6.3x7.7x2.2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP-ALU-SMD-4.5x5x1.4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP-ALU-SMD-6.3x7.7x2.2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POLAR0.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CN-SMD-0603_big)
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=D?(D5AN)
+Add component (AddParameter): Name = "Code - JEDEC"; Value = "DO-214-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "THEGIOIIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/products/1n5822"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1N5007"; VariantName = "[No Variations]"
+Added Component: Designator=D?(DIO-SMD-106-HayDung)
+Add component (AddParameter): Name = "Code - JEDEC"; Value = "DO-214-AB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "ES1J - STMBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://banlinhkien.vn/goods-8089-es1j-do214-diode-1a-600v-sma-es1j-.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Revision"; Value = "July-2002: Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1N5007"; VariantName = "[No Variations]"
+Added Component: Designator=F?(Capacitor_805)
+Added Component: Designator=HD?(IDC40)
+Add component (AddParameter): Name = "Value"; Value = "Header 5x2"; VariantName = "[No Variations]"
+Added Component: Designator=J?(KF3-5.08T)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6911031100xx.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 October 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "691103110003"; VariantName = "[No Variations]"
+Added Component: Designator=L?(L-SMD-D-12.5x12.5)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448709022.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "THEGIOIIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.thegioiic.com/products/cuon-cam-33uh-rh127-smd-12x12x7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Christin Otto"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "August 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "2.20 µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "7448709022"; VariantName = "[No Variations]"
+Added Component: Designator=LED?(LED-0805-Red)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 - 5 ly 2 Colour"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES-SMD-0603_BIG)
+Added Component: Designator=U?(SOT223)
+Add component (AddParameter): Name = "Creator"; Value = "Nguyen Ba Bien"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Website"; Value = "http://group3i.net"; VariantName = "[No Variations]"
+Added Component: Designator=U?(TO263)
+Add component (AddParameter): Name = "Category"; Value = "IC-Power"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "MUA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.thegioiic.com/products/lm2596s-5-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Input Voltage"; Value = "12 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Current"; Value = "3 (6.0 peak) A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Input Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Output Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerICTypes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Status"; Value = "Unreleased"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage"; Value = "mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-40 to +125 degC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=C?-2
+Added Pin To Net: NetName=+5 Pin=F?-2
+Added Pin To Net: NetName=+5 Pin=HD?-39
+Added Pin To Net: NetName=+5 Pin=HD?-40
+Added Pin To Net: NetName=+5 Pin=POKEY?-0
+Added Net: Name=+5
+Added Pin To Net: NetName=+12 Pin=C?-1
+Added Pin To Net: NetName=+12 Pin=C?-2
+Added Pin To Net: NetName=+12 Pin=D?-2
+Added Pin To Net: NetName=+12 Pin=J?-3
+Added Pin To Net: NetName=+12 Pin=R?-1
+Added Pin To Net: NetName=+12 Pin=U?-1
+Added Net: Name=+12
+Added Pin To Net: NetName=COL1 Pin=POKEY?-5
+Added Net: Name=COL1
+Added Pin To Net: NetName=COL2 Pin=POKEY?-6
+Added Net: Name=COL2
+Added Pin To Net: NetName=COL3 Pin=POKEY?-9
+Added Net: Name=COL3
+Added Pin To Net: NetName=COL4 Pin=POKEY?-17
+Added Net: Name=COL4
+Added Pin To Net: NetName=EMG Pin=HD?-20
+Added Pin To Net: NetName=EMG Pin=POKEY?-57
+Added Net: Name=EMG
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=HD?-1
+Added Pin To Net: NetName=GND Pin=HD?-3
+Added Pin To Net: NetName=GND Pin=HD?-5
+Added Pin To Net: NetName=GND Pin=HD?-7
+Added Pin To Net: NetName=GND Pin=HD?-9
+Added Pin To Net: NetName=GND Pin=HD?-27
+Added Pin To Net: NetName=GND Pin=HD?-35
+Added Pin To Net: NetName=GND Pin=HD?-37
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=LED?-2
+Added Pin To Net: NetName=GND Pin=POKEY?-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Net: Name=GND
+Added Pin To Net: NetName=KEY11 Pin=POKEY?-60
+Added Net: Name=KEY11
+Added Pin To Net: NetName=KEY12 Pin=POKEY?-44
+Added Net: Name=KEY12
+Added Pin To Net: NetName=KEY13 Pin=POKEY?-40
+Added Net: Name=KEY13
+Added Pin To Net: NetName=KEY21 Pin=POKEY?-55
+Added Net: Name=KEY21
+Added Pin To Net: NetName=KEY22 Pin=POKEY?-43
+Added Net: Name=KEY22
+Added Pin To Net: NetName=KEY23 Pin=POKEY?-39
+Added Net: Name=KEY23
+Added Pin To Net: NetName=KEY31 Pin=POKEY?-54
+Added Net: Name=KEY31
+Added Pin To Net: NetName=KEY32 Pin=POKEY?-42
+Added Net: Name=KEY32
+Added Pin To Net: NetName=KEY33 Pin=POKEY?-38
+Added Net: Name=KEY33
+Added Pin To Net: NetName=KEY41 Pin=POKEY?-53
+Added Net: Name=KEY41
+Added Pin To Net: NetName=KEY42 Pin=POKEY?-41
+Added Net: Name=KEY42
+Added Pin To Net: NetName=KEY43 Pin=POKEY?-37
+Added Net: Name=KEY43
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Net: Name=Net*_1
+Added Pin To Net: NetName=Net*_2 Pin=*-2
+Added Net: Name=Net*_2
+Added Pin To Net: NetName=Net*_3 Pin=*-3
+Added Net: Name=Net*_3
+Added Pin To Net: NetName=Net*_4 Pin=*-4
+Added Net: Name=Net*_4
+Added Pin To Net: NetName=Net*_5 Pin=*-5
+Added Net: Name=Net*_5
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-2
+Added Pin To Net: NetName=NetC?_1 Pin=F?-1
+Added Pin To Net: NetName=NetC?_1 Pin=L?-3
+Added Pin To Net: NetName=NetC?_1 Pin=L?-4
+Added Pin To Net: NetName=NetC?_1 Pin=U?-3
+Added Pin To Net: NetName=NetC?_1 Pin=U?-4
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=L?-1
+Added Pin To Net: NetName=NetD?_2 Pin=L?-2
+Added Pin To Net: NetName=NetD?_2 Pin=U?-2
+Added Net: Name=NetD?_2
+Added Pin To Net: NetName=NetLED?_1 Pin=LED?-1
+Added Pin To Net: NetName=NetLED?_1 Pin=R?-2
+Added Net: Name=NetLED?_1
+Added Pin To Net: NetName=P1_ENC1_A Pin=POKEY?-3
+Added Net: Name=P1_ENC1_A
+Added Pin To Net: NetName=P2_ENC1_B Pin=POKEY?-4
+Added Net: Name=P2_ENC1_B
+Added Pin To Net: NetName=P5_ENC2_A Pin=POKEY?-7
+Added Net: Name=P5_ENC2_A
+Added Pin To Net: NetName=P6_ENC2_B Pin=POKEY?-8
+Added Net: Name=P6_ENC2_B
+Added Pin To Net: NetName=P8_FastENC Pin=POKEY?-10
+Added Net: Name=P8_FastENC
+Added Pin To Net: NetName=P9/MOSI Pin=HD?-2
+Added Pin To Net: NetName=P9/MOSI Pin=POKEY?-11
+Added Net: Name=P9/MOSI
+Added Pin To Net: NetName=P10/ENB Pin=HD?-8
+Added Pin To Net: NetName=P10/ENB Pin=POKEY?-12
+Added Net: Name=P10/ENB
+Added Pin To Net: NetName=P11/SCK Pin=HD?-4
+Added Pin To Net: NetName=P11/SCK Pin=POKEY?-13
+Added Net: Name=P11/SCK
+Added Pin To Net: NetName=P12_FastEnc Pin=POKEY?-15
+Added Net: Name=P12_FastEnc
+Added Pin To Net: NetName=P13_FastENC Pin=POKEY?-16
+Added Net: Name=P13_FastENC
+Added Pin To Net: NetName=P15_ENC3_A Pin=POKEY?-18
+Added Net: Name=P15_ENC3_A
+Added Pin To Net: NetName=P16_ENC3_B Pin=POKEY?-19
+Added Net: Name=P16_ENC3_B
+Added Pin To Net: NetName=P17/PWM1 Pin=HD?-38
+Added Pin To Net: NetName=P17/PWM1 Pin=POKEY?-20
+Added Net: Name=P17/PWM1
+Added Pin To Net: NetName=P18/PWM2 Pin=HD?-36
+Added Pin To Net: NetName=P18/PWM2 Pin=POKEY?-21
+Added Net: Name=P18/PWM2
+Added Pin To Net: NetName=P19/PWM3 Pin=HD?-34
+Added Pin To Net: NetName=P19/PWM3 Pin=POKEY?-22
+Added Net: Name=P19/PWM3
+Added Pin To Net: NetName=P20/PWM4 Pin=HD?-32
+Added Pin To Net: NetName=P20/PWM4 Pin=POKEY?-23
+Added Net: Name=P20/PWM4
+Added Pin To Net: NetName=P21/PWM5 Pin=HD?-33
+Added Pin To Net: NetName=P21/PWM5 Pin=POKEY?-24
+Added Net: Name=P21/PWM5
+Added Pin To Net: NetName=P22/PWM6 Pin=HD?-31
+Added Pin To Net: NetName=P22/PWM6 Pin=POKEY?-25
+Added Net: Name=P22/PWM6
+Added Pin To Net: NetName=P23/SS0 Pin=HD?-10
+Added Pin To Net: NetName=P23/SS0 Pin=POKEY?-27
+Added Net: Name=P23/SS0
+Added Pin To Net: NetName=P24/SS1 Pin=HD?-11
+Added Pin To Net: NetName=P24/SS1 Pin=POKEY?-28
+Added Net: Name=P24/SS1
+Added Pin To Net: NetName=P25/SS2 Pin=HD?-12
+Added Pin To Net: NetName=P25/SS2 Pin=POKEY?-29
+Added Net: Name=P25/SS2
+Added Pin To Net: NetName=P26/SS3 Pin=HD?-13
+Added Pin To Net: NetName=P26/SS3 Pin=POKEY?-30
+Added Net: Name=P26/SS3
+Added Pin To Net: NetName=P27/SS4 Pin=HD?-14
+Added Pin To Net: NetName=P27/SS4 Pin=POKEY?-31
+Added Net: Name=P27/SS4
+Added Pin To Net: NetName=P28/SS5 Pin=HD?-15
+Added Pin To Net: NetName=P28/SS5 Pin=POKEY?-32
+Added Net: Name=P28/SS5
+Added Pin To Net: NetName=P29/SS6 Pin=HD?-16
+Added Pin To Net: NetName=P29/SS6 Pin=POKEY?-33
+Added Net: Name=P29/SS6
+Added Pin To Net: NetName=P30/SS7 Pin=HD?-17
+Added Pin To Net: NetName=P30/SS7 Pin=POKEY?-34
+Added Net: Name=P30/SS7
+Added Pin To Net: NetName=P31/SS8 Pin=HD?-18
+Added Pin To Net: NetName=P31/SS8 Pin=POKEY?-35
+Added Net: Name=P31/SS8
+Added Pin To Net: NetName=P32/SS9 Pin=HD?-19
+Added Pin To Net: NetName=P32/SS9 Pin=POKEY?-36
+Added Net: Name=P32/SS9
+Added Pin To Net: NetName=P41/A0 Pin=HD?-30
+Added Pin To Net: NetName=P41/A0 Pin=POKEY?-45
+Added Net: Name=P41/A0
+Added Pin To Net: NetName=P42/A1 Pin=HD?-28
+Added Pin To Net: NetName=P42/A1 Pin=POKEY?-46
+Added Net: Name=P42/A1
+Added Pin To Net: NetName=P43/A2 Pin=HD?-26
+Added Pin To Net: NetName=P43/A2 Pin=POKEY?-47
+Added Net: Name=P43/A2
+Added Pin To Net: NetName=P44/A3 Pin=HD?-25
+Added Pin To Net: NetName=P44/A3 Pin=POKEY?-48
+Added Net: Name=P44/A3
+Added Pin To Net: NetName=P45/A4 Pin=HD?-24
+Added Pin To Net: NetName=P45/A4 Pin=POKEY?-50
+Added Net: Name=P45/A4
+Added Pin To Net: NetName=P46/A5 Pin=HD?-23
+Added Pin To Net: NetName=P46/A5 Pin=POKEY?-51
+Added Net: Name=P46/A5
+Added Pin To Net: NetName=P47/A6 Pin=HD?-22
+Added Pin To Net: NetName=P47/A6 Pin=POKEY?-52
+Added Net: Name=P47/A6
+Added Pin To Net: NetName=P51/LATCH Pin=HD?-6
+Added Pin To Net: NetName=P51/LATCH Pin=POKEY?-56
+Added Net: Name=P51/LATCH
+Added Pin To Net: NetName=PUMP Pin=HD?-21
+Added Pin To Net: NetName=PUMP Pin=POKEY?-58
+Added Net: Name=PUMP
+Added Pin To Net: NetName=VCC Pin=C?-1
+Added Pin To Net: NetName=VCC Pin=C?-2
+Added Pin To Net: NetName=VCC Pin=U?-2
+Added Net: Name=VCC
+Added Class: Name=Power
+Added Class: Name=KEY
+Added Member To Class: ClassName=Main Member=Component * Pokey_Jack
+Added Member To Class: ClassName=Main Member=Component C? CN
+Added Member To Class: ClassName=Main Member=Component C? CN
+Added Member To Class: ClassName=Main Member=Component F? 600R@100Mhz
+Added Member To Class: ClassName=Main Member=Component HD? IDC20X2
+Added Member To Class: ClassName=Main Member=Component POKEY? Pokey
+Added Room: Name=Power

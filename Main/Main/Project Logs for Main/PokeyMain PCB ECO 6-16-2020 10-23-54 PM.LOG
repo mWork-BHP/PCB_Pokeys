@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=EMG Pin=HD1-10
+Removed Pin From Net: NetName=PUMP Pin=HD1-11
+Added Pin To Net: NetName=5V Pin=F3-1
+Added Pin To Net: NetName=PUMP Pin=HD1-10
+Added Pin To Net: NetName=EMG Pin=HD1-11

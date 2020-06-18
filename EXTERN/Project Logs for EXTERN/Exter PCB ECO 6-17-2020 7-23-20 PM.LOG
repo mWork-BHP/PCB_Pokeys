@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PUMP_COM Pin=J1-14
+Added Pin To Net: NetName=PUMP_COM Pin=J1-8

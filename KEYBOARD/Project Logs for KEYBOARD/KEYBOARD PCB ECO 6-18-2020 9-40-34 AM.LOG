@@ -1,0 +1,4 @@
+Added Component: Designator=SW?(SW2-SMD)
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Class: Name=KEYBOARD
+Added Room: Name=KEYBOARD

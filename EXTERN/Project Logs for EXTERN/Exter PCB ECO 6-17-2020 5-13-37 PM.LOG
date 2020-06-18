@@ -1,0 +1,3 @@
+Removed Member From Class: ClassName=EXTERN Member=DiR3
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetDIR3_1
+Added Member To Class: ClassName=EXTERN Member=Component D3 Diode
