@@ -1,0 +1,91 @@
+Protel Design System Design Rule Check
+PCB File : D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc
+Date     : 6/18/2020
+Time     : 3:12:31 PM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.203mm) (Max=2.54mm) (Preferred=1.016mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J1-S1(96.887mm,161.163mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J1-S2(84.187mm,161.163mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J2-S1(77.73mm,161.038mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J2-S2(65.03mm,161.038mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J3-S1(116.332mm,160.784mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad J3-S2(103.632mm,160.784mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (135.636mm,161.544mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (135.731mm,71.438mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (45.549mm,161.475mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Via (45.561mm,71.565mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm
+Rule Violations :10
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.065mm < 0.254mm) Between Pad C5-2(58.293mm,155.194mm) on Top Layer And Pad U1-1(57.31mm,156.337mm) on Top Layer [Top Solder] Mask Sliver [0.065mm]
+Rule Violations :1
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD'))
+   Violation between Room Definition: Between Component SW10-SW (106.68mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW11-SW (86.487mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW12-SW (66.294mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW13-SW (126.873mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW14-SW (106.68mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW15-SW (86.487mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW16-SW (66.294mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW1-SW (127.127mm,148.463mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW2-SW (106.68mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW3-SW (86.487mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW4-SW (66.294mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW5-SW (126.873mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW6-SW (106.68mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW7-SW (86.487mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW8-SW (66.294mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW9-SW (126.873mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) 
+Rule Violations :16
+
+Processing Rule : Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD'))
+   Violation between Room Definition: Between Component SW10-SW (106.68mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW11-SW (86.487mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW12-SW (66.294mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW13-SW (126.873mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW14-SW (106.68mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW15-SW (86.487mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW16-SW (66.294mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW1-SW (127.127mm,148.463mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW2-SW (106.68mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW3-SW (86.487mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW4-SW (66.294mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW5-SW (126.873mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW6-SW (106.68mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW7-SW (86.487mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW8-SW (66.294mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+   Violation between Room Definition: Between Component SW9-SW (126.873mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) 
+Rule Violations :16
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 43
+Waived Violations : 0
+Time Elapsed        : 00:00:02

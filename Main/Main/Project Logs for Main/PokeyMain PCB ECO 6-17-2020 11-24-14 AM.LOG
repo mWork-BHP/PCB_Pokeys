@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=KEY4_SCK Pin=J3-2
-Removed Pin From Net: NetName=KEY4_LATCH Pin=J3-4
-Added Pin To Net: NetName=KEY4_LATCH Pin=J3-2
-Added Pin To Net: NetName=KEY4_SCK Pin=J3-4

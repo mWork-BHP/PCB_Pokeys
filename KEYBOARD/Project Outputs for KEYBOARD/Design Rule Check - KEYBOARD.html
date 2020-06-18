@@ -1,0 +1,469 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">6/18/2020</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:12:31 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc" class="file"><acronym title="D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc">D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">43</td></tr>
+</table>
+</td>
+</table><a name="IDP4LWNULL4AUJNMIX11Q1HTFV1GFEYSJQ4BOPVXCTMK3R1UQ52JDI"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJOKN2BKTTZ2IGLJCGORI3Y5N3KFOIPAGXADFTYHJG1DUXV5KBZOF">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSR1ALFYBEMAZPICWDKOVADDXMGH503ER34H2DSPLNXVYYBOIU2NJ">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWAJKK3GBN344LJNH1OO0XXTYMH4RBQWX55R3TEDILTANZCSEONFE">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXXZ1MMS3BCVWNYQSG0KJQ2UMJGUFBORHPYGYQESBJGEITRMVFGF">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5NWIE3CKODYDLGJJEIWRLF24YOYPBRI4A3TAQMFWLY5YKQ3ZZZCH">Width Constraint (Min=0.203mm) (Max=2.54mm) (Preferred=1.016mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDENFPE5LOW3ZRNT4AYIFCF5OUIOLPGIDTFBLXUDPVRNYQQDCLICFB">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHT3JDSFCK3CKJCSEFYPMFKB3TMBYUAL31MUR5GLEKSVWN2XQQZAF">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">10</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2WF2W5QGZ2EPGQKBORM1VBHSGCQO2BU2XZIW3YIMYIN0VMOL21MD">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRNQSP5AHAMXGMS2BZLJFZOJDAKQCD04BZ1UFMIDYILCZXAMPDHOM">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDELK0QBH35GEBNVBPTQZ3KPEHYOOUZ1LGBPUZEEKJNGOGFXLJ3UPD">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTPYEZJJVFICCPMAG0IAAWHBZVEKZLACZSTVVZRDCGNXP3TVBWZWH">Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD'))</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN1EQG3DSLRDKF51T1IX04AT0IMNH340MCGRZFIFP4XBVV3F0GH">Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD'))</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4TES55A2KZGGL5NZRK051JTUYGHKSZEJCGV1IIOSZEWJCS1J3HBD">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">43</td>
+</tr>
+</table><br><a name="IDHT3JDSFCK3CKJCSEFYPMFKB3TMBYUAL31MUR5GLEKSVWN2XQQZAF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3749.847mil|Location2.X=3879.05mil|Location1.Y=6280.399mil|Location2.Y=6409.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3749.847mil|Location2.X=3879.05mil|Location1.Y=6280.399mil|Location2.Y=6409.601mil|Absolute=True">Hole Size Constraint: (3.25mm &gt; 2.54mm) Pad J1-S1(96.887mm,161.163mm) on Multi-Layer Actual Hole Size = 3.25mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3249.847mil|Location2.X=3379.05mil|Location1.Y=6280.399mil|Location2.Y=6409.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3249.847mil|Location2.X=3379.05mil|Location1.Y=6280.399mil|Location2.Y=6409.601mil|Absolute=True">Hole Size Constraint: (3.25mm &gt; 2.54mm) Pad J1-S2(84.187mm,161.163mm) on Multi-Layer Actual Hole Size = 3.25mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2995.635mil|Location2.X=3124.838mil|Location1.Y=6275.477mil|Location2.Y=6404.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2995.635mil|Location2.X=3124.838mil|Location1.Y=6275.477mil|Location2.Y=6404.68mil|Absolute=True">Hole Size Constraint: (3.25mm &gt; 2.54mm) Pad J2-S1(77.73mm,161.038mm) on Multi-Layer Actual Hole Size = 3.25mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2495.635mil|Location2.X=2624.838mil|Location1.Y=6275.477mil|Location2.Y=6404.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2495.635mil|Location2.X=2624.838mil|Location1.Y=6275.477mil|Location2.Y=6404.68mil|Absolute=True">Hole Size Constraint: (3.25mm &gt; 2.54mm) Pad J2-S2(65.03mm,161.038mm) on Multi-Layer Actual Hole Size = 3.25mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4515.399mil|Location2.X=4644.601mil|Location1.Y=6265.477mil|Location2.Y=6394.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4515.399mil|Location2.X=4644.601mil|Location1.Y=6265.477mil|Location2.Y=6394.68mil|Absolute=True">Hole Size Constraint: (3.25mm &gt; 2.54mm) Pad J3-S1(116.332mm,160.784mm) on Multi-Layer Actual Hole Size = 3.25mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4015.399mil|Location2.X=4144.601mil|Location1.Y=6265.477mil|Location2.Y=6394.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4015.399mil|Location2.X=4144.601mil|Location1.Y=6265.477mil|Location2.Y=6394.68mil|Absolute=True">Hole Size Constraint: (3.25mm &gt; 2.54mm) Pad J3-S2(103.632mm,160.784mm) on Multi-Layer Actual Hole Size = 3.25mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5260.635mil|Location2.X=5419.365mil|Location1.Y=6280.635mil|Location2.Y=6439.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5260.635mil|Location2.X=5419.365mil|Location1.Y=6280.635mil|Location2.Y=6439.365mil|Absolute=True">Hole Size Constraint: (4mm &gt; 2.54mm) Via (135.636mm,161.544mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5264.36mil|Location2.X=5423.09mil|Location1.Y=2733.144mil|Location2.Y=2891.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5264.36mil|Location2.X=5423.09mil|Location1.Y=2733.144mil|Location2.Y=2891.875mil|Absolute=True">Hole Size Constraint: (4mm &gt; 2.54mm) Via (135.731mm,71.438mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1713.907mil|Location2.X=1872.638mil|Location1.Y=6277.928mil|Location2.Y=6436.659mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1713.907mil|Location2.X=1872.638mil|Location1.Y=6277.928mil|Location2.Y=6436.659mil|Absolute=True">Hole Size Constraint: (4mm &gt; 2.54mm) Via (45.549mm,161.475mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1714.36mil|Location2.X=1873.09mil|Location1.Y=2738.144mil|Location2.Y=2896.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1714.36mil|Location2.X=1873.09mil|Location1.Y=2738.144mil|Location2.Y=2896.875mil|Absolute=True">Hole Size Constraint: (4mm &gt; 2.54mm) Via (45.561mm,71.565mm) from Top Layer to Bottom Layer Actual Hole Size = 4mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDRNQSP5AHAMXGMS2BZLJFZOJDAKQCD04BZ1UFMIDYILCZXAMPDHOM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2263.722mil|Location2.X=2274.972mil|Location1.Y=6133.273mil|Location2.Y=6144.523mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2263.722mil|Location2.X=2274.972mil|Location1.Y=6133.273mil|Location2.Y=6144.523mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.065mm &lt; 0.254mm) Between Pad C5-2(58.293mm,155.194mm) on Top Layer And Pad U1-1(57.31mm,156.337mm) on Top Layer [Top Solder] Mask Sliver [0.065mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTPYEZJJVFICCPMAG0IAAWHBZVEKZLACZSTVVZRDCGNXP3TVBWZWH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW10-SW (106.68mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW11-SW (86.487mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW12-SW (66.294mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True">Room Definition: Between Component SW13-SW (126.873mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True">Room Definition: Between Component SW14-SW (106.68mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True">Room Definition: Between Component SW15-SW (86.487mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4320mil|Absolute=True">Room Definition: Between Component SW16-SW (66.294mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4402.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6011.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4402.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6011.213mil|Absolute=True">Room Definition: Between Component SW1-SW (127.127mm,148.463mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6026.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6026.213mil|Absolute=True">Room Definition: Between Component SW2-SW (106.68mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6026.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6026.213mil|Absolute=True">Room Definition: Between Component SW3-SW (86.487mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6026.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=6026.213mil|Absolute=True">Room Definition: Between Component SW4-SW (66.294mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW5-SW (126.873mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW6-SW (106.68mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW7-SW (86.487mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW8-SW (66.294mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=8615mil|Location1.Y=2670mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW9-SW (126.873mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (141.732mm, 67.818mm, 218.821mm, 109.728mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDN1EQG3DSLRDKF51T1IX04AT0IMNH340MCGRZFIFP4XBVV3F0GH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW10-SW (106.68mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW11-SW (86.487mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW12-SW (66.294mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True">Room Definition: Between Component SW13-SW (126.873mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True">Room Definition: Between Component SW14-SW (106.68mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True">Room Definition: Between Component SW15-SW (86.487mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=3666.213mil|Absolute=True">Room Definition: Between Component SW16-SW (66.294mm,88.9mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4402.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6011.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4402.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6011.213mil|Absolute=True">Room Definition: Between Component SW1-SW (127.127mm,148.463mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6026.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6026.213mil|Absolute=True">Room Definition: Between Component SW2-SW (106.68mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6026.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6026.213mil|Absolute=True">Room Definition: Between Component SW3-SW (86.487mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6026.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=6026.213mil|Absolute=True">Room Definition: Between Component SW4-SW (66.294mm,148.844mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW5-SW (126.873mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3597.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW6-SW (106.68mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2802.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW7-SW (86.487mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2007.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=5226.213mil|Absolute=True">Room Definition: Between Component SW8-SW (66.294mm,128.524mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Dientu\Hardware\Altium\NhanVe\PCB_Pokeys\KEYBOARD\KEYBOARD.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.575mil|Location2.X=7320mil|Location1.Y=1060mil|Location2.Y=4441.213mil|Absolute=True">Room Definition: Between Component SW9-SW (126.873mm,108.585mm) on Top Layer And Room KEYBOARD (Bounding Region = (178.943mm, 26.924mm, 185.928mm, 39.878mm) (InComponentClass('KEYBOARD')) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

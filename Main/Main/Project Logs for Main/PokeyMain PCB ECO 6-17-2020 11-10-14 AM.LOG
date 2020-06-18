@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=NetJ3_L1+ Pin=J3-L1
-Added Component: Designator=J5(JP2)
-Add component (AddParameter): Name = "Value"; Value = "JP 2"; VariantName = "[No Variations]"
-Added Pin To Net: NetName=5V Pin=F3-1
-Added Pin To Net: NetName=NetC19_1 Pin=J5-2
-Added Member To Class: ClassName=ProExtBus Member=Component J5 Jumper 2

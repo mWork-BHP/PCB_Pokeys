@@ -1,4 +1,0 @@
-Change Component Comment : Designator=C25_KEY2 Old Comment=10nF New Comment=CN
-Change Component Comment : Designator=C35 Old Comment=100nF New Comment=CN
-Added Pin To Net: NetName=5V Pin=F3-1
-Added Pin To Net: NetName=GND Pin=J2-19
