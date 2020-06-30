@@ -1,0 +1,5 @@
+Added Component: Designator=R22(RES-SMD-0603_BIG)
+Added Pin To Net: NetName=GND Pin=R22-2
+Added Pin To Net: NetName=NetJ2_L1- Pin=J2-L1-
+Added Pin To Net: NetName=NetJ2_L1- Pin=R22-1
+Added Net: Name=NetJ2_L1-

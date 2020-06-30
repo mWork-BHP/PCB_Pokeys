@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=GND Pin=J2-L1-
+Removed Pin From Net: NetName=GND Pin=J2-L2-
+Removed Pin From Net: NetName=GND Pin=J3-L1-
+Removed Pin From Net: NetName=GND Pin=J3-L2-
+Removed Pin From Net: NetName=MOSI1 Pin=R1-2
+Removed Pin From Net: NetName=NetC4_2 Pin=R2-2
+Change Component Footprint: Designator=J1 Old Footprint=RJ45_8P8C New Footprint=RJ45-8P8C_Dung
+Change Component Footprint: Designator=J2 Old Footprint=RJ45_8P8C New Footprint=RJ45-8P8C_Dung
+Change Component Footprint: Designator=J3 Old Footprint=RJ45_8P8C New Footprint=RJ45-8P8C_Dung
+Change Component Designator: OldDesignator=mWorkLogo? NewDesignator=mWorkLogo1
+Added Component: Designator=R19(RES-SMD-0603_BIG)
+Added Component: Designator=R20(RES-SMD-0603_BIG)
+Added Component: Designator=R21(RES-SMD-0603_BIG)
+Added Component: Designator=R22(RES-SMD-0603_BIG)
+Added Pin To Net: NetName=COL1 Pin=J1-L1+
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-L2+
+Added Pin To Net: NetName=+5 Pin=J2-L1+
+Added Pin To Net: NetName=MOSI1 Pin=J2-L2+
+Added Pin To Net: NetName=+5 Pin=J3-L1+
+Added Pin To Net: NetName=NetC4_2 Pin=J3-L2+
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R19-1
+Added Pin To Net: NetName=GND Pin=R20-2
+Added Pin To Net: NetName=GND Pin=R21-1
+Added Pin To Net: NetName=GND Pin=R22-1
+Added Pin To Net: NetName=NetJ1_L1- Pin=J1-L1-
+Added Pin To Net: NetName=NetJ1_L1- Pin=R1-2
+Added Net: Name=NetJ1_L1-
+Added Pin To Net: NetName=NetJ1_L2- Pin=J1-L2-
+Added Pin To Net: NetName=NetJ1_L2- Pin=R19-2
+Added Net: Name=NetJ1_L2-
+Added Pin To Net: NetName=NetJ2_L1- Pin=J2-L1-
+Added Pin To Net: NetName=NetJ2_L1- Pin=R20-1
+Added Net: Name=NetJ2_L1-
+Added Pin To Net: NetName=NetJ2_L2- Pin=J2-L2-
+Added Pin To Net: NetName=NetJ2_L2- Pin=R21-2
+Added Net: Name=NetJ2_L2-
+Added Pin To Net: NetName=NetJ3_L1- Pin=J3-L1-
+Added Pin To Net: NetName=NetJ3_L1- Pin=R22-2
+Added Net: Name=NetJ3_L1-
+Added Pin To Net: NetName=NetJ3_L2- Pin=J3-L2-
+Added Pin To Net: NetName=NetJ3_L2- Pin=R2-1
+Added Net: Name=NetJ3_L2-
+Change Room Name: Old Name=KEYBOARD_1 New Name=KEYBOARD

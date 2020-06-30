@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=COL1 Pin=J1-1
+Removed Pin From Net: NetName=NetJ1_2 Pin=J1-2
+Removed Pin From Net: NetName=COL2 Pin=J1-3
+Removed Pin From Net: NetName=NetJ1_4 Pin=J1-4
+Removed Pin From Net: NetName=COL3 Pin=J1-5
+Removed Pin From Net: NetName=NetJ1_6 Pin=J1-6
+Removed Pin From Net: NetName=COL4 Pin=J1-7
+Removed Pin From Net: NetName=NetJ1_8 Pin=J1-8
+Removed Pin From Net: NetName=COL1 Pin=J1-L1+
+Removed Pin From Net: NetName=NetJ1_8 Pin=J1-L2+
+Added Pin To Net: NetName=COL4 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_8 Pin=J1-2
+Added Pin To Net: NetName=COL3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-4
+Added Pin To Net: NetName=COL2 Pin=J1-5
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-6
+Added Pin To Net: NetName=COL1 Pin=J1-7
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-8
+Added Pin To Net: NetName=COL4 Pin=J1-L1+
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-L2+
+Change Net Name : Old Net Name=COL1 New Net Name=COL4
+Change Net Name : Old Net Name=COL2 New Net Name=COL3
+Change Net Name : Old Net Name=COL3 New Net Name=COL2
+Change Net Name : Old Net Name=COL4 New Net Name=COL1
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=NetJ1_8
+Change Net Name : Old Net Name=NetJ1_4 New Net Name=NetJ1_6
+Change Net Name : Old Net Name=NetJ1_6 New Net Name=NetJ1_4
+Change Net Name : Old Net Name=NetJ1_8 New Net Name=NetJ1_2

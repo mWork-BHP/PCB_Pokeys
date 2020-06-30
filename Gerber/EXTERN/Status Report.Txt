@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [EXTERN.PrjPcb]
+   Generated File[Exter.TXT]
+   Generated File[Exter.LDP]
+   Generated File[Exter.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 3:50:28 PM On 6/30/2020
