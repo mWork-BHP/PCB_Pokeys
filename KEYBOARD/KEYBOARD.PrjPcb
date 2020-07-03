@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BDKTWFAS
 
 [Document4]
-DocumentPath=Gerber\CAMtastic1.Cam
+DocumentPath=Project Outputs for KEYBOARD\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Gerber\CAMtastic2.Cam
+DocumentPath=Project Outputs for KEYBOARD\CAMtastic2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
