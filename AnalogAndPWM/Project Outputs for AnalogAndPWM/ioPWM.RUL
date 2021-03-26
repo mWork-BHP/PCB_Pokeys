@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: F:\software\4.DienTu\Hardware\Altium\NhanVe\PCB_Pokeys\AnalogAndPWM\ioPWM.PcbDoc
+RuleKind=Clearance|RuleName=PolygonCC|Scope=Board|Minimum=19.69
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
