@@ -1,1 +1,5 @@
 Record=TopLevelDocument|FileName=analogPWM.SchDoc
+Record=SheetSymbol|SourceDocument=analogPWM.SchDoc|Designator=AnalogIN|SchDesignator=AnalogIN|FileName=AnalogIN.SchDoc|SymbolType=Normal|RawFileName=AnalogIN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=analogPWM.SchDoc|Designator=IN|SchDesignator=IN|FileName=IN.SchDoc|SymbolType=Normal|RawFileName=IN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=analogPWM.SchDoc|Designator=OUT|SchDesignator=OUT|FileName=OUT.SchDoc|SymbolType=Normal|RawFileName=OUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=analogPWM.SchDoc|Designator=PWMOUT|SchDesignator=PWMOUT|FileName=PWMOUT.SchDoc|SymbolType=Normal|RawFileName=PWMOUT.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
